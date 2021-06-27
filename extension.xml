@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root version="3.1">
+	<properties>
+		<name>Party Item Identified</name>
+		<version>1.2</version>
+		<author>Llisandur</author>
+		<description>Adds identify buttons to party sheet and parcels</description>
+		<loadorder>200</loadorder>
+	</properties>
+	
+	<announcement text="CoreRPG - Party Item Identified v1.2\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
+	
+	<base>
+		<!-- Party sheet -->
+		<includefile source="ps/ps_inventory.xml" />
+
+		<!-- Campaign records -->
+		<includefile source="campaign/record_parcel.xml" />
+	</base>
+</root>

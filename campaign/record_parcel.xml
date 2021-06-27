@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<windowclass name="parcel_item" merge="join">
+		<margins control="0,0,0,5" />
+		<sheetdata>
+			<button_record_isidentified name="identifyitem">
+				<anchored width="20" height="20">
+					<top offset="2" />
+					<right parent="shortcut" anchor="left" relation="relative" offset="-2" />
+				</anchored>
+			</button_record_isidentified>
+		</sheetdata>
+	</windowclass>
+
+	<template name="string_parcel">
+		<string_textlistitem>
+			<anchored>
+				<left offset="40" />
+				<top parent="rightanchor" />
+				<right parent="rightanchor" anchor="left" relation="relative" offset="-25" />
+			</anchored>
+			<frame />
+			<multilinespacing>20</multilinespacing>
+		</string_textlistitem>
+	</template>
+</root>
