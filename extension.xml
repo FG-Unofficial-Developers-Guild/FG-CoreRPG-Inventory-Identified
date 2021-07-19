@@ -2,7 +2,7 @@
 
 <root version="3.1">
 	<properties>
-		<name>Party Item Identified</name>
+		<name>Feature: Party Item Identified</name>
 		<version>1.2</version>
 		<author>Llisandur</author>
 		<description>Adds identify buttons to party sheet and parcels</description>
