@@ -10,7 +10,7 @@
 		<sheetdata>
 			<button_record_isidentified name="identifyitem" insertbefore="name">
 				<anchored width="20" height="20">
-					<top offset="2" />
+					<top />
 					<right parent="rightanchor" anchor="left" relation="relative" offset="-5" />
 				</anchored>
 			</button_record_isidentified>
