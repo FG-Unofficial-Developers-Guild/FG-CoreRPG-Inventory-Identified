@@ -7,12 +7,11 @@
 
 <root>
 	<windowclass name="parcel_item" merge="join">
-		<margins control="0,0,0,5" />
 		<sheetdata>
-			<button_record_isidentified name="identifyitem">
+			<button_record_isidentified name="identifyitem" insertbefore="name">
 				<anchored width="20" height="20">
 					<top offset="2" />
-					<right parent="rightanchor" anchor="left" relation="relative" offset="-2" />
+					<right parent="rightanchor" anchor="left" relation="relative" offset="-5" />
 				</anchored>
 			</button_record_isidentified>
 		</sheetdata>
