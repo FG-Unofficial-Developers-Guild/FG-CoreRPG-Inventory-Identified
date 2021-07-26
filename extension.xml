@@ -3,13 +3,13 @@
 <root version="3.1">
 	<properties>
 		<name>Feature: Party Item Identified</name>
-		<version>1.2</version>
+		<version>1.3</version>
 		<author>Llisandur</author>
 		<description>Adds identify buttons to party sheet and parcels</description>
 		<loadorder>200</loadorder>
 	</properties>
 	
-	<announcement text="CoreRPG - Party Item Identified v1.2\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
+	<announcement text="CoreRPG - Party Item Identified v1.3\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
 	
 	<base>
 		<!-- Party sheet -->
