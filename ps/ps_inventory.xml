@@ -6,6 +6,14 @@
 -->
 
 <root>
+	<windowclass name="ps_inventory" merge="join">
+		<sheetdata>
+			<label_ps name="label_parcelitem_assign">
+				<anchored to="items" position="aboveright" offset="60,7" width="110" />
+			</label_ps>
+		</sheetdata>
+	</windowclass>
+
 	<windowclass name="ps_parcelitem" merge="join">
 		<sheetdata>			
 			<button_record_isidentified name="identifyitem" insertbefore="assign">
