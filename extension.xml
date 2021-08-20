@@ -9,7 +9,7 @@
 		<loadorder>200</loadorder>
 	</properties>
 	
-	<announcement text="CoreRPG - Party Item Identified v1.3\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
+	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rCoreRPG - Party Item Identified v1.3\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
 	
 	<base>
 		<!-- Party sheet -->
