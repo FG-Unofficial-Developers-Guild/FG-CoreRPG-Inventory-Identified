@@ -16,6 +16,33 @@
 
 	<windowclass name="ps_parcelitem" merge="join">
 		<sheetdata>			
+			<hidden_record_isidentified name="isidentified">
+				<class>item</class>
+				<script>
+					function onInit()
+						if super.onInit then
+							super.onInit();
+						end
+
+						OptionsManager.registerCallback("PS-NONID-NAME", hideOrShowID);
+						hideOrShowID();
+					end
+
+					function hideOrShowID()
+						if super then
+							super.ignorehost = (OptionsManager.isOption("PS-NONID-NAME", "on") and Session.IsHost)
+							if super.onValueChanged then
+								super.onValueChanged()
+							end
+						end
+					end
+
+					function onClose()
+						OptionsManager.unregisterCallback("PS-NONID-NAME", hideOrShowID);
+					end
+				</script>
+			</hidden_record_isidentified>
+
 			<button_record_isidentified name="identifyitem" insertbefore="assign">
 				<anchored width="20" height="20">
 					<top offset="2" />

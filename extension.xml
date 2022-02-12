@@ -17,5 +17,11 @@
 
 		<!-- Campaign records -->
 		<includefile source="campaign/record_parcel.xml" />
+
+		<!-- Scripts -->
+		<script name="PartyInventoryIDOptions" file="scripts/pii-options.lua" />
+
+		<!-- Strings -->
+		<includefile source="strings/strings_partyinventoryidentified.xml" />
 	</base>
 </root>
