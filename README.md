@@ -1,4 +1,6 @@
-# CoreRPG Party Inventory Identified
+[![Build FG-Usable File](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/create-ext.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/create-ext.yml) [![Luacheck](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/luacheck.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/luacheck.yml)
+
+# Party Inventory Identified
 This extension makes it easier to see which party inventory items have been identified.
 The original extension was created by [Llisandur](https://www.fantasygrounds.com/forums/member.php?61628-Llisandur).
 A new column will be shown on the party inventory with ID'd/non-ID'd symbols.
