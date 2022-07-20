@@ -3,13 +3,13 @@
 <root version="3.1">
 	<properties>
 		<name>Feature: Party Item Identified</name>
-		<version>1.4</version>
+		<version>1.5</version>
 		<author>Llisandur</author>
 		<description>Adds identify buttons to party sheet and parcels</description>
 		<loadorder>200</loadorder>
 	</properties>
 	
-	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rCoreRPG - Party Item Identified v1.4\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
+	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rCoreRPG - Party Item Identified v1.5\nFor Fantasy Grounds v3.3+\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
 	
 	<base>
 		<!-- Party sheet -->
