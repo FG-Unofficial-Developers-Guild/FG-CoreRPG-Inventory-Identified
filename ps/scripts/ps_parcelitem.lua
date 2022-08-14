@@ -18,9 +18,14 @@ function onInit()
     end
 
     OptionsManager.registerCallback("PS-NONID-NAME", hideOrShowID);
+
     hideOrShowID();
 end
 
 function onClose()
+    if super.onClose then
+        super.onClose();
+    end
+
     OptionsManager.unregisterCallback("PS-NONID-NAME", hideOrShowID);
 end

@@ -18,7 +18,7 @@
 		<sheetdata>			
 			<hidden_record_isidentified name="isidentified">
 				<class>item</class>
-				<script file="campaign/scripts/ps_parcelitem.lua" />
+				<script file="ps/scripts/ps_parcelitem.lua" />
 			</hidden_record_isidentified>
 
 			<button_record_isidentified name="identifyitem" insertbefore="assign">
