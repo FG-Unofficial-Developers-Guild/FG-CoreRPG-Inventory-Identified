@@ -2,22 +2,15 @@
 
 <root version="3.1">
 	<properties>
-		<name>Feature: Party Item Identified</name>
-		<version>1.6</version>
+		<name>Feature: Inventory Identified</name>
+		<version>1.7</version>
 		<author>Llisandur</author>
-		<description>Adds identify buttons to party sheet and parcels</description>
-		<loadorder>200</loadorder>
+		<description>Turns inventory item names red for host/GM if unidentified.</description>
 	</properties>
 	
-	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rCoreRPG - Party Item Identified v1.6\nBy Llisandur, updated by bmos.\rAdds identify buttons to party sheet and parcels." font="emotefont"/>
+	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rInventory Identified v1.7\nBy llisandur, updated by bmos.\rTurns inventory item names red for host/GM if unidentified." font="emotefont"/>
 	
 	<base>
-		<!-- Party sheet -->
-		<includefile source="ps/ps_inventory.xml" />
-
-		<!-- Campaign records -->
-		<includefile source="campaign/record_parcel.xml" />
-
 		<!-- Templates -->
 		<includefile source="common/template_records.xml" />
 
