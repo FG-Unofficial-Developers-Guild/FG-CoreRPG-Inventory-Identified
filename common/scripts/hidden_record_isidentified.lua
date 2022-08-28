@@ -23,11 +23,11 @@ function onClose()
 end
 
 function colorUnidentified(bID)
+    local color = ColorManager.COLOR_FULL;
     if not bID and Session.IsHost then
-        window.nonid_name.setColor(ColorManager.COLOR_HEALTH_CRIT_WOUNDS);
-    else
-        window.nonid_name.setColor(ColorManager.COLOR_FULL);
+        color = ColorManager.COLOR_HEALTH_CRIT_WOUNDS;
     end
+    window.nonid_name.setColor(color);
 end
 
 function onValueChanged()
