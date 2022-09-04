@@ -1,6 +1,6 @@
 [![Build FG-Usable File](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/create-ext.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/create-ext.yml) [![Luacheck](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/luacheck.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Party-Inventory-Identified/actions/workflows/luacheck.yml)
 
-# Party Inventory Identified
+# Inventory Identified
 Turns player inventory item names red for host/GM if unidentified.
 
 # Compatibility and Instructions
