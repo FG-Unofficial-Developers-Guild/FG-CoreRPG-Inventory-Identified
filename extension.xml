@@ -4,20 +4,14 @@
 	<properties>
 		<name>Feature: Inventory Identified</name>
 		<version>1.7</version>
-		<author>Llisandur</author>
-		<description>Turns inventory item names red for host/GM if unidentified.</description>
+		<author>bmos</author>
+		<description>Turns player inventory item names red for host/GM if unidentified.</description>
 	</properties>
 	
-	<announcement text="https://www.fantasygrounds.com/forums/showthread.php?40686-Extension-Party-Inventory-Identified\rInventory Identified v1.7\nBy llisandur, updated by bmos.\rTurns inventory item names red for host/GM if unidentified." font="emotefont"/>
+	<announcement text="Inventory Identified v1.7\nBy Bmos.\rTurns inventory item names red for host/GM if unidentified." font="emotefont"/>
 	
 	<base>
 		<!-- Templates -->
 		<includefile source="common/template_records.xml" />
-
-		<!-- Scripts -->
-		<script name="PartyInventoryIDOptions" file="scripts/pii-options.lua" />
-
-		<!-- Strings -->
-		<includefile source="strings/strings_partyinventoryidentified.xml" />
 	</base>
 </root>

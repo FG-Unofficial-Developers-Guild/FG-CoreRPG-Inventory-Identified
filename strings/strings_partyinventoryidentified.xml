@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-
-<!-- Please see the LICENSE.md file included with this distribution for attribution and copyright information -->
-
-<root>
-	<!-- options titles -->
-	<string name="opt_lab_ps_nonidname">GM: Un-ID'd Names on PS</string>
-</root>
