@@ -36,7 +36,7 @@ function onValueChanged()
     if window.onIDChanged then
         window.onIDChanged();
     elseif class then
-        local bID = LibraryData.getIDState(class[1], nodeSrc, ignorehost or super.ignorehost);
+        local bID = LibraryData.getIDState(class[1], nodeSrc, ignorehost or (super and super.ignorehost));
         window.name.setVisible(bID);
         window.nonid_name.setVisible(not bID);
 
