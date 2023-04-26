@@ -4,4 +4,4 @@
 This extension makes it easier for the GM to tell which inventory items remain unidentified by color-coding unidentified item names in red.
 
 # Compatibility and Instructions
-This extension has been tested with [FantasyGrounds Unity](https://www.fantasygrounds.com/home/FantasyGroundsUnity.php) v4.3.6 (2023-03-16).
+This extension has been tested with [FantasyGrounds Unity](https://www.fantasygrounds.com/home/FantasyGroundsUnity.php) v4.3.8 (2023-04-25).
