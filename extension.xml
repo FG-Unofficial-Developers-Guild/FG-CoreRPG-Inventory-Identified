@@ -3,12 +3,12 @@
 <root version="3.1">
 	<properties>
 		<name>Feature: Inventory Identified</name>
-		<version>1.8</version>
+		<version>1.9</version>
 		<author>bmos</author>
 		<description>Turns player inventory item names red for host/GM if unidentified.</description>
 	</properties>
 	
-	<announcement text="Inventory Identified v1.8\nBy Bmos.\rTurns inventory item names red for host/GM if unidentified." font="emotefont"/>
+	<announcement text="Inventory Identified v1.9\nBy Bmos.\rTurns inventory item names red for host/GM if unidentified." font="emotefont"/>
 	
 	<base>
 		<!-- Templates -->

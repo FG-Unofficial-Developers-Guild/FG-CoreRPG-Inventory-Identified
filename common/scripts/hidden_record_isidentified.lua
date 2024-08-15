@@ -21,8 +21,8 @@ function onClose()
 end
 
 function colorUnidentified(bID)
-	local color = ColorManager.COLOR_FULL
-	if not bID and Session.IsHost then color = ColorManager.COLOR_HEALTH_CRIT_WOUNDS end
+	local color = ColorManager.getUIColor("usage_full")
+	if not bID and Session.IsHost then color = ColorManager.getUIColor("health_wounds_critical") end
 	window.nonid_name.setColor(color)
 end
 
