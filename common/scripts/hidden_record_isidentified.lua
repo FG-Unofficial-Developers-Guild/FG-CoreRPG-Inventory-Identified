@@ -5,7 +5,9 @@
 
 local nodeSrc = nil
 function onInit()
-	if super and super.onInit then super.onInit() end
+	if super and super.onInit then
+		super.onInit()
+	end
 
 	nodeSrc = window.getDatabaseNode()
 	if nodeSrc then
@@ -15,19 +17,27 @@ function onInit()
 end
 
 function onClose()
-	if super and super.onClose then super.onClose() end
+	if super and super.onClose then
+		super.onClose()
+	end
 
-	if nodeSrc then DB.removeHandler(DB.getPath(nodeSrc, 'isidentified'), 'onUpdate', onValueChanged) end
+	if nodeSrc then
+		DB.removeHandler(DB.getPath(nodeSrc, 'isidentified'), 'onUpdate', onValueChanged)
+	end
 end
 
 function colorUnidentified(bID)
-	local color = ColorManager.getUIColor("usage_full")
-	if not bID and Session.IsHost then color = ColorManager.getUIColor("health_wounds_critical") end
+	local color = ColorManager.getUIColor('usage_full')
+	if not bID and Session.IsHost then
+		color = ColorManager.getUIColor('health_wounds_critical')
+	end
 	window.nonid_name.setColor(color)
 end
 
 function onValueChanged()
-	if super and super.onValueChanged then super.onValueChanged() end
+	if super and super.onValueChanged then
+		super.onValueChanged()
+	end
 
 	if window.onIDChanged then
 		window.onIDChanged()
