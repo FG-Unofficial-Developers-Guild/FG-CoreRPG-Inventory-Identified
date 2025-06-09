@@ -1,4 +1,5 @@
-[![Build FG-Usable File](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/create-ext.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/create-ext.yml) [![Luacheck](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/luacheck.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/luacheck.yml)
+[![Build FG-Usable File](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/create-ext.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/create-ext.yml)
+[![Check Lua Code](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/lua.yml/badge.svg)](https://github.com/FG-Unofficial-Developers-Guild/FG-CoreRPG-Inventory-Identified/actions/workflows/lua.yml)
 
 # Inventory Identified
 This extension makes it easier for the GM to tell which inventory items remain unidentified by color-coding unidentified item names in red.
