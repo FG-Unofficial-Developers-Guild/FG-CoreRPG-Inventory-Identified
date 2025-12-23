@@ -4,7 +4,7 @@
 	<properties>
 		<name>Feature: Inventory Identified</name>
 		<version>1.9-hotfix.1</version>
-		<author>bmos</author>
+		<author>bmos (Ramona T)</author>
 		<description>Turns player inventory item names red for host/GM if unidentified.</description>
 	</properties>
 	
